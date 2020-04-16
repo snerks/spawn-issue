@@ -10,11 +10,6 @@ const gitBashPath = `"C:\\\\Program Files\\Git\\git-bash.exe"`;
 console.log(`launching ${shell} at shell path: ${gitBashPath}`);
 console.log(`launching ${shell} with folder path: ${path}`);
 
-// spawn(gitBashPath, [`--cd="${path}"`], {
-//   shell: true,
-//   cwd: path,
-// });
-
 spawn(gitBashPath, [`--cd="${path}"`], {
   shell: true,
   cwd: path,

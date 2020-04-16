@@ -1,6 +1,6 @@
 import { spawn } from "child_process";
 
-console.log("Hello from Typescript!!!");
+// console.log("Hello from Typescript!!!");
 
 const path = "C:\\D\\SamplesReact\\mui-theme-switcher-01";
 // const path = "C:\\\\D\\SamplesReact\\football-stats-03";
